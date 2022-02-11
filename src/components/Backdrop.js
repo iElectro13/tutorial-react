@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Backdrop = ({ onClose }) => {
-  return (
-    <div className='Backdrop' onClick={onClose}/>
-  )
-}
+    return <div className="Backdrop" onClick={onClose} />;
+};
 
-export default Backdrop
+export default Backdrop;

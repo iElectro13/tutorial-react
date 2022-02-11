@@ -1,81 +1,79 @@
-.App{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: rgb(212, 212, 212);
-  min-height: 100vh;
-  position: relative;
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(212, 212, 212);
+    min-height: 100vh;
+    position: relative;
 }
 
 .Cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 0rem 2rem;
-  gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0rem 2rem;
+    gap: 1rem;
 }
 
 .Card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  background: white;
-  padding: 1rem;
-  min-width: 260px;
-  border-radius: 5px;
-  box-shadow: 0px 10px 15px rgb(182, 182, 182);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    background: white;
+    padding: 1rem;
+    min-width: 260px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px rgb(182, 182, 182);
 }
 
 .Card h2 {
-  font-size: 3rem;
-  margin: 0;
-  padding: 0;
-  color: rgb(32, 32, 32);
-
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    color: rgb(32, 32, 32);
 }
 
 .Card p {
-  color: rgb(51, 51, 51);
+    color: rgb(51, 51, 51);
 }
 
 .Card button {
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  background: rgb(255, 71, 71);
-  color: rgb(43, 43, 43);
-  font-weight: bold;
-  border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background: rgb(255, 71, 71);
+    color: rgb(43, 43, 43);
+    font-weight: bold;
+    border: none;
 }
 
-.Card button:hover{
-  background: rgb(255, 100, 100);
-  box-shadow: 0px 0px 5px rgb(255, 100, 100);
+.Card button:hover {
+    background: rgb(255, 100, 100);
+    box-shadow: 0px 0px 5px rgb(255, 100, 100);
 }
 
-.Card button:active{
-  transform: scale(0.95);
+.Card button:active {
+    transform: scale(0.95);
 }
-
 
 .Modal {
-  width: 60%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-  background: white;
-  border-radius: 15px;
-  position: absolute;
-  z-index: 2;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 2;
 }
 
 .Backdrop {
-  position: absolute;
-  z-index: 1;
-  height: 100vh;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.541);
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.541);
 }
